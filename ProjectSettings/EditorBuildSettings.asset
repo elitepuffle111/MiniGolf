@@ -5,7 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/Locomotion.unity
+    guid: 024cd9dcd49bd8f46a6bea03aa8a21bb
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+    path: Assets/Scenes/MiniGolf.unity
+    guid: 3b2b288ce888f1a4687be012acf602fa
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2880c4b54fae4c543b7f43f90591db84,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 3bed71d6e35bcbe42b5f330be1c7086d,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b0d4c25d00f178f4cbcf41bbde53f351,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a2d31f2ffeb596a43a0ee38aa02f5ba5,
+      type: 2}
