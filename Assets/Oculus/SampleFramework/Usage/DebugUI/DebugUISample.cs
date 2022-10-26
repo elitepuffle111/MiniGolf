@@ -5,7 +5,7 @@ using UnityEngine.Assertions;
 using UnityEngine.UI;
 
 // Show off all the Debug UI components.
-public class DebugUISample : MonoBehaviour
+public class DebugUISample: MonoBehaviour
 {
     bool inMenu;
     private Text sliderText;

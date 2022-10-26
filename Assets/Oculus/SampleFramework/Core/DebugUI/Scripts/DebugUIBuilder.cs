@@ -331,6 +331,11 @@ public class DebugUIBuilder : MonoBehaviour
     return rt;
   }
 
+  public void EditLabel(string label)
+  {
+    insertedElements[0][1].GetComponent<Text>().text = label;
+  }
+
   public RectTransform AddSlider(string label, float min, float max, OnSlider onValueChanged, bool wholeNumbersOnly = false, int targetCanvas = 0)
   {
     RectTransform rt = (RectTransform)GameObject.Instantiate(sliderPrefab);
