@@ -13,10 +13,12 @@ public class GameUI : MonoBehaviour
 
     [SerializeField]
     private Ball ball;
+
+    [SerializeField] private Hole hole;
 	void Start ()
     {
         //DebugUIBuilder.instance.AddButton("Button Pressed", LogButtonPressed);
-        DebugUIBuilder.instance.AddLabel("Par 3");
+        DebugUIBuilder.instance.AddLabel("Par " + hole.Par);
         DebugUIBuilder.instance.AddLabel("Stroke: " + strokeNumUI);
   //       var sliderPrefab = DebugUIBuilder.instance.AddSlider("Slider", 1.0f, 10.0f, SliderPressed, true);
   //       var textElementsInSlider = sliderPrefab.GetComponentsInChildren<Text>();
